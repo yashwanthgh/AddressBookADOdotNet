@@ -113,7 +113,7 @@ namespace AddressBookADOdotNet
             Console.WriteLine("Matching Contacts:");
             foreach (IContact contact in contacts)
             {
-                Console.WriteLine(contact.Name);
+                Console.WriteLine($"Name: {contact.Name}, Phonenumber: {contact.Phonenumber}, Email: {contact.Email}, City: {contact.City}, Zip: {contact.Zip}, State: {contact.State}");
             }
         }
 
